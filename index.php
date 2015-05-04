@@ -20,9 +20,7 @@
     <meta name="twitter:description" content="Descripcion"/>
     <meta content="@franspeicher" name="twitter:site">
     <meta content="@gasbriones" name="twitter:creator">
-    <!-- Fonts -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext,cyrillic-ext" type="text/css" media="all" />
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic&subset=latin,cyrillic-ext,greek-ext,greek,latin-ext,cyrillic" type="text/css" media="all" />
+
     <!-- Links -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
@@ -35,27 +33,25 @@
 <div class="page">
     <div class="header-container clearfix">
         <header id="header">
-            <div class="nav">
-                <div class="wrapper">
-                    <nav>
-                        <ul id="header-links">
-                            <li>
-                                <a href="#"> Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#"> Link 2</a>
-                            </li>
-                        </ul>
-                        <ul id="header-social">
-                            <li>
-                                <a href="#"> Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#"> Link 2</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+            <div class="wrapper">
+                <nav>
+                    <ul id="header-links">
+                        <li>
+                            <a href="#"> Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#"> Link 2</a>
+                        </li>
+                    </ul>
+                    <ul id="header-social">
+                        <li>
+                            <a href="#"> Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#"> Link 2</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
     </div>
