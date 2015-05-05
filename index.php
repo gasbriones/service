@@ -2,9 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta
-        content="Arte pop, latinoamérica-Arte, pop, Argentina-Art pop, Argentina-Arte pop, Salta-Art pop, Salta-Pintura pop, Argentina-Pintura pop, Buenos Aires-Pintura pop, Salta-Cuadros pop, Argentina-Dibujos pop, Argentina-artista, plástico, Argentina-artista plástico, Buenos Aires-artista, plástico Salta-artista, visual, Argentina-artista visual, Buenos Aires-Artista visual, Salta-pop, drawing-pop, painting-Arte, contemporaneo, Argentina-Arte contemporaneo, Salta-Estilo, pop-Serie, Pop-Muestra, pop-Exposición, arte, pop-Mural, pop-Mural Buenos Aires-colores, saturados-dibujo, oriental-oriental, drawing-dibujo, zen-Dibujo, geisha-objetos, intervenidos, pop-Contraste-arte, mujer-arte, imagen mujer-arte, extravagante-arte, geisha"
-        name="keywords">
+    <meta content="" name="keywords">
 
     <meta content="Descripcion" name="description">
     <!-- Facebook -->
@@ -29,12 +27,15 @@
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/mediaqueries.css" rel="stylesheet" type="text/css">
+    <script src="js/libs/jquery-2.1.3.min.js"></script>
+    <script src="js/libs/jquery.bxslider.min.js"></script>
+    <script src="js/init.js"></script>
     <title>Service Page</title>
 
 </head>
 <body class="home" data-page="home">
 <div class="page">
-    <div class="header-container clearfix">
+    <section class="header-container clearfix">
         <header id="header">
             <h6 class="visuallyhidden">Hogar Help Servicios</h6>
             <nav class="clearfix">
@@ -77,6 +78,7 @@
             <div id="top-menu" class="clearfix">
                 <div class="wrapper">
                     <nav>
+                        <h6 class="visuallyhidden">Hogar Help Top Menu</h6>
                         <ul class="hh-menu">
                             <li class="active"><a href="#">Inicio</a></li>
                             <li><a href="#">Servicios</a></li>
@@ -89,7 +91,23 @@
                 </div>
             </div>
         </header>
-    </div>
+    </section>
+    <section class="body-container clearfix" >
+        <div class="slider">
+            <h6 class="visuallyhidden">Hogar Help Slider</h6>
+            <ul id="slider-home" class="bx-slider">
+                <li>
+                    <img src="images/hogar-help-slider-1.jpg" />
+                    <div class="caption">
+                        Hola mundo
+                    </div>
+                </li>
+                <li><img src="images/hogar-help-slider-1.jpg" /></li>
+                <li><img src="images/hogar-help-slider-1.jpg" /></li>
+                <li><img src="images/hogar-help-slider-1.jpg" /></li>
+            </ul>
+        </div>
+    </section>
 </div>
 </body>
 </html>
