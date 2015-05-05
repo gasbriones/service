@@ -99,7 +99,10 @@
                 <li>
                     <img src="images/hogar-help-slider-1.jpg" />
                     <div class="caption">
-                        Hola mundo
+                       <ul class="banner">
+                           <li class="title">Servicio técnico a domicilio en el dia!</li>
+                           <li class="phone">(11) 2345-6789</li>
+                       </ul>
                     </div>
                 </li>
                 <li><img src="images/hogar-help-slider-1.jpg" /></li>
@@ -111,3 +114,4 @@
 </div>
 </body>
 </html>
+1540380451

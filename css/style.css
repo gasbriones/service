@@ -132,7 +132,21 @@ body {
 #slider-home .caption {
   position: absolute;
   z-index: 999;
-  top: 0;
-  left: 0; }
+  top: 10%;
+  left: 15%;
+  width: 80%; }
+  #slider-home .caption .banner .title {
+    font-size: 50px;
+    color: #333333;
+    font-weight: bold; }
+  #slider-home .caption .banner .phone {
+    color: #00bbd3;
+    font-size: 90px;
+    margin-top: 2px;
+    font-weight: bold; }
+  #slider-home .caption .banner .subtitle {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
