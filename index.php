@@ -2,7 +2,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta content="Arte pop, latinoamérica-Arte, pop, Argentina-Art pop, Argentina-Arte pop, Salta-Art pop, Salta-Pintura pop, Argentina-Pintura pop, Buenos Aires-Pintura pop, Salta-Cuadros pop, Argentina-Dibujos pop, Argentina-artista, plástico, Argentina-artista plástico, Buenos Aires-artista, plástico Salta-artista, visual, Argentina-artista visual, Buenos Aires-Artista visual, Salta-pop, drawing-pop, painting-Arte, contemporaneo, Argentina-Arte contemporaneo, Salta-Estilo, pop-Serie, Pop-Muestra, pop-Exposición, arte, pop-Mural, pop-Mural Buenos Aires-colores, saturados-dibujo, oriental-oriental, drawing-dibujo, zen-Dibujo, geisha-objetos, intervenidos, pop-Contraste-arte, mujer-arte, imagen mujer-arte, extravagante-arte, geisha" name="keywords">
+    <meta
+        content="Arte pop, latinoamérica-Arte, pop, Argentina-Art pop, Argentina-Arte pop, Salta-Art pop, Salta-Pintura pop, Argentina-Pintura pop, Buenos Aires-Pintura pop, Salta-Cuadros pop, Argentina-Dibujos pop, Argentina-artista, plástico, Argentina-artista plástico, Buenos Aires-artista, plástico Salta-artista, visual, Argentina-artista visual, Buenos Aires-Artista visual, Salta-pop, drawing-pop, painting-Arte, contemporaneo, Argentina-Arte contemporaneo, Salta-Estilo, pop-Serie, Pop-Muestra, pop-Exposición, arte, pop-Mural, pop-Mural Buenos Aires-colores, saturados-dibujo, oriental-oriental, drawing-dibujo, zen-Dibujo, geisha-objetos, intervenidos, pop-Contraste-arte, mujer-arte, imagen mujer-arte, extravagante-arte, geisha"
+        name="keywords">
 
     <meta content="Descripcion" name="description">
     <!-- Facebook -->
@@ -24,6 +26,7 @@
     <!-- Links -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/mediaqueries.css" rel="stylesheet" type="text/css">
     <title>Service Page</title>
@@ -33,9 +36,12 @@
 <div class="page">
     <div class="header-container clearfix">
         <header id="header">
-            <div class="wrapper">
-                <nav>
+            <h6 class="visuallyhidden">Hogar Help Servicios</h6>
+            <nav class="clearfix">
+                <div class="wrapper">
+                    <h6 class="visuallyhidden">Menu</h6>
                     <ul id="header-links">
+
                         <li>
                             <a href="#"> Link 1</a>
                         </li>
@@ -43,15 +49,44 @@
                             <a href="#"> Link 2</a>
                         </li>
                     </ul>
+                    <h6 class="visuallyhidden">Redes Sociales</h6>
                     <ul id="header-social">
-                        <li>
-                            <a href="#"> Link 1</a>
+                        <li class="calls">
+                            <i class="fa fa-phone"></i>
+                            <span class="celeste">Llamenos:</span>
+                            (11) 2345-6789
                         </li>
                         <li>
-                            <a href="#"> Link 2</a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
                     </ul>
-                </nav>
+                </div>
+            </nav>
+            <div class="wrapper">
+                <div id="header_logo" class="clearfix">
+                    <h6 class="visuallyhidden">Hogar Help Logo</h6>
+                    <a href="#" title="Hogar Help -  Servicios para el hogar">
+                        <img src="images/hogar-help-logo.jpg" alt="Hogar Help Logo" class="left">
+                        <h1 class="logo-text left">Hogar Help</h1>
+                    </a>
+                </div>
+            </div>
+            <div id="top-menu" class="clearfix">
+                <div class="wrapper">
+                    <nav>
+                        <ul class="hh-menu">
+                            <li class="active"><a href="#">Inicio</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Quienes somos</a></li>
+                            <li><a href="#">Covertura</a></li>
+                            <li><a href="#">Solicitar service</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
     </div>

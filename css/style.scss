@@ -14,12 +14,142 @@ body {
 
 .wrapper{
   width: 100%;
-  max-width: 1280px;
+  max-width: 1170px;
   margin: 0 auto;
 }
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
 
-header{
-  .nav{
+.visuallyhidden {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.celeste{
+  color:#00bbd3;
+}
+
+#header{
+  nav{
     background: #f1f2f2;
+    ul{
+      li{
+        float: left;
+        position: relative;
+        a{
+          @include box_sizing(border-box);
+          color: #737b81;
+
+          cursor: pointer;
+          font: 300 12px/15px "Ubuntu",sans-serif;
+          text-transform: uppercase;
+          text-decoration: none;
+          i{
+            &:before{
+              font-size: (30em/16);
+              @include transition(color 0.5s ease);
+            }
+          }
+
+          &:hover{
+            color: #00bbd3;
+          }
+        }
+      }
+    }
+    #header-links{
+      float: left;
+      li{
+        border-left:solid 1px #dee1e3 ;
+        &:last-child{
+          border-right:solid 1px #dee1e3 ;
+        }
+        a{
+          padding:  (16em/16) (25em/16);
+          display: block;
+        }
+      }
+    }
+    #header-social{
+      float: right;
+      li{
+        padding:  (16em/30) (15em/30);
+        &.calls{
+          font-weight: bold;
+          font-size: (25em/16);
+          line-height: (25em/16);
+          padding:0 (15em/30) ;
+          .fa-phone{
+            margin-right: (5em/16);
+          }
+        }
+      }
+    }
+  }
+  #header_logo{
+    margin: (15em/16) 0 (15em/16) 0;
+    .logo-text{
+      font-size: (36em/16);
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #333333;
+      letter-spacing: -2px;
+      line-height: (60em/36);
+    }
+  }
+  #top-menu{
+    background:  #00bbd3;
+    .hh-menu{
+      position: relative;
+      width: 100%;
+      li{
+        a{
+          position: relative;
+          color: #a5f3fd;
+          display: block;
+          margin: 0 4px;
+          padding: 15px 12px;
+          position: relative;
+          text-transform: uppercase;
+          font-size: 1em;
+          font-weight: 700;
+
+          &:before {
+            background:#3e464c;
+            bottom: 10px;
+            content: "";
+            height: 6px;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            @include transition(all 0.25s ease-in-out);
+            width: 100%;
+          }
+
+        }
+        &:hover,
+        &.active{
+          a{
+            color: #ffffff !important;
+            &:before {
+              bottom: 0;
+              opacity: 1;
+              @include transition(all 0.25s ease-in-out);
+            }
+          }
+        }
+      }
+    }
   }
 }

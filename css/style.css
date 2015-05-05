@@ -11,10 +11,116 @@ body {
 
 .wrapper {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1170px;
   margin: 0 auto; }
 
-header .nav {
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.visuallyhidden {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.celeste {
+  color: #00bbd3; }
+
+#header nav {
   background: #f1f2f2; }
+  #header nav ul li {
+    float: left;
+    position: relative; }
+    #header nav ul li a {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      color: #737b81;
+      cursor: pointer;
+      font: 300 12px/15px "Ubuntu",sans-serif;
+      text-transform: uppercase;
+      text-decoration: none; }
+      #header nav ul li a i:before {
+        font-size: 1.875em;
+        -webkit-transition: color 0.5s ease;
+        -moz-transition: color 0.5s ease;
+        -o-transition: color 0.5s ease;
+        transition-property: color 0.5s ease; }
+      #header nav ul li a:hover {
+        color: #00bbd3; }
+  #header nav #header-links {
+    float: left; }
+    #header nav #header-links li {
+      border-left: solid 1px #dee1e3; }
+      #header nav #header-links li:last-child {
+        border-right: solid 1px #dee1e3; }
+      #header nav #header-links li a {
+        padding: 1em 1.5625em;
+        display: block; }
+  #header nav #header-social {
+    float: right; }
+    #header nav #header-social li {
+      padding: 0.53333em 0.5em; }
+      #header nav #header-social li.calls {
+        font-weight: bold;
+        font-size: 1.5625em;
+        line-height: 1.5625em;
+        padding: 0 0.5em; }
+        #header nav #header-social li.calls .fa-phone {
+          margin-right: 0.3125em; }
+#header #header_logo {
+  margin: 0.9375em 0 0.9375em 0; }
+  #header #header_logo .logo-text {
+    font-size: 2.25em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+    letter-spacing: -2px;
+    line-height: 1.66667em; }
+#header #top-menu {
+  background: #00bbd3; }
+  #header #top-menu .hh-menu {
+    position: relative;
+    width: 100%; }
+    #header #top-menu .hh-menu li a {
+      position: relative;
+      color: #a5f3fd;
+      display: block;
+      margin: 0 4px;
+      padding: 15px 12px;
+      position: relative;
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: 700; }
+      #header #top-menu .hh-menu li a:before {
+        background: #3e464c;
+        bottom: 10px;
+        content: "";
+        height: 6px;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        -webkit-transition: all 0.25s ease-in-out;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        transition-property: all 0.25s ease-in-out;
+        width: 100%; }
+    #header #top-menu .hh-menu li:hover a, #header #top-menu .hh-menu li.active a {
+      color: #ffffff !important; }
+      #header #top-menu .hh-menu li:hover a:before, #header #top-menu .hh-menu li.active a:before {
+        bottom: 0;
+        opacity: 1;
+        -webkit-transition: all 0.25s ease-in-out;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        transition-property: all 0.25s ease-in-out; }
 
 /*# sourceMappingURL=style.css.map */
