@@ -1,7 +1,9 @@
 
 
 $(document).ready(function () {
-    $('.bx-slider').bxSlider();
+    $('.bx-slider').bxSlider({
+        auto:true
+    });
 
     (function() {
 

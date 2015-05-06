@@ -105,16 +105,108 @@
                        <ul class="banner">
                            <li class="title">Servicio técnico a domicilio en el dia!</li>
                            <li class="phone">(11) 2345-6789</li>
+                           <li>
+                               <ul class="listWithMarker">
+                                   <li>Presupuesto sin cargo</li>
+                                   <li>Experiencia y calidad</li>
+                                   <li>Personal capacitado </li>
+                                   <li>10 años de experiencia</li>
+                                   <li>Cobertura en Capital y Gran Buenos Aires</li>
+                               </ul>
+                           </li>
                        </ul>
                     </div>
                 </li>
-                <li><img src="images/hogar-help-slider-1.jpg" /></li>
-                <li><img src="images/hogar-help-slider-1.jpg" /></li>
-                <li><img src="images/hogar-help-slider-1.jpg" /></li>
+                <li>
+                    <img src="images/hogar-help-slider-2.jpg" />
+                    <div class="caption">
+                        <ul class="banner">
+                            <li class="title">Reparamos todas las marcas y modelos</li>
+                            <li class="phone">(11) 2345-6789</li>
+                            <li>
+                                <ul class="listWithMarker">
+                                    <li>Repuestos originales</li>
+                                    <li>Marcas nacionales e importadas</li>
+                                    <li>Garantia de calidad</li>
+                                    <li>Personal capacitado </li>
+                                    <li>10 años de experiencia</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </div>
+        <div class="content">
+            <div class="wrapper">
+                <h2 class="relevant">Servicio técnico autorizado en Argentina</h2>
+
+            </div>
+        </div>
+        <div class="marks clearfix">
+            <div class="wrapper">
+                <h2 class="relevant">Ofrecemos servicio de reparación de las principales marcas</h2>
+
+                <div class="grid_2 left">
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo1.jpg">
+                    </a>
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo2.jpg">
+                    </a>
+                </div>
+
+                <div class="grid_2 left">
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo3.jpg">
+                    </a>
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo4.jpg">
+                    </a>
+                </div>
+
+                <div class="grid_2 left">
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo5.jpg">
+                    </a>
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo6.jpg">
+                    </a>
+                </div>
+
+                <div class="grid_2 left">
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo7.jpg">
+                    </a>
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo8.jpg">
+                    </a>
+                </div>
+
+                <div class="grid_2 left">
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo9.jpg">
+                    </a>
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo10.jpg">
+                    </a>
+                </div>
+
+                <div class="grid_2 left">
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo11.jpg">
+                    </a>
+                    <a class="link_logo" href="#">
+                        <img alt="" src="images/page1_logo12.jpg">
+                    </a>
+                </div>
+
+            </div>
+        </div>
     </section>
+    <footer id="footer">
+        Footer
+    </footer>
 </div>
 </body>
 </html>
-1540380451
