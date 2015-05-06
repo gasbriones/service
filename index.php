@@ -13,6 +13,7 @@
     <meta content="Francisco Speicher" name="og:site_name">
     <meta content="Buenos Aires" name="og:region">
     <meta content="Argentina" name="og:country-name">
+
     <!-- twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:url" content="url"/>
@@ -140,7 +141,7 @@
         <div class="content">
             <div class="wrapper">
                 <h2 class="relevant">Servicio técnico autorizado en Argentina</h2>
-
+                
             </div>
         </div>
         <div class="marks clearfix">
