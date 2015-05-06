@@ -99,11 +99,16 @@ body {
           font-weight: bold;
           font-size: (25em/16);
           line-height: (25em/16);
-          padding:0 (15em/30) ;
+          padding:0 (15em/30);
           .fa-phone{
             margin-right: (5em/16);
           }
+          .quotes{
+            display: none;
+          }
         }
+
+
       }
     }
   }

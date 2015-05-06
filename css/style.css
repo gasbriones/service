@@ -81,6 +81,8 @@ body {
         padding: 0 0.5em; }
         #header nav #header-social li.calls .fa-phone {
           margin-right: 0.3125em; }
+        #header nav #header-social li.calls .quotes {
+          display: none; }
 #header #header_logo {
   margin: 0.9375em 0 0.9375em 0; }
   #header #header_logo .logo-text {
@@ -148,5 +150,3 @@ body {
     font-size: 20px;
     color: #333333;
     font-weight: bold; }
-
-/*# sourceMappingURL=style.css.map */

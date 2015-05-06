@@ -25,8 +25,10 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/animations.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/mediaqueries.css" rel="stylesheet" type="text/css">
+
     <script src="js/libs/jquery-2.1.3.min.js"></script>
     <script src="js/libs/jquery.bxslider.min.js"></script>
     <script src="js/init.js"></script>
@@ -55,7 +57,8 @@
                         <li class="calls">
                             <i class="fa fa-phone"></i>
                             <span class="celeste">Llamenos:</span>
-                            (11) 2345-6789
+                            <span class="number-1 quotes">(11) 2345-6789</span>
+                            <span class="number-1 quotes">(11) 5555-6789</span>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-facebook"></i></a>
