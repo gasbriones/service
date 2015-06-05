@@ -24,9 +24,10 @@
 <div class="wrapper">
     <div id="header_logo" class="clearfix">
         <h6 class="visuallyhidden">Hogar Help Logo</h6>
-        <a href="index.php" title="Hogar Help -  Servicios para el hogar">
+        <a class="logo-anchor" href="index.php" title="Hogar Help -  Servicios para el hogar">
             <img src="images/hogar-help-logo.jpg" alt="Hogar Help Logo" class="left">
             <h1 class="logo-text left">hogarhelp</h1>
+            <span class="slogan">Haciendo de tu Hogar, tu lugar en el mundo.</span>
         </a>
     </div>
 </div>

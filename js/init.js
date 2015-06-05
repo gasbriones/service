@@ -4,6 +4,15 @@ $(document).ready(function () {
         pause:8000
     });
 
+    $("#top-menu").sticky({topSpacing:0});
+    $('#top-menu').on('sticky-start', function() {
+        $('.sticky').show();
+    });
+
+    $('#top-menu').on('sticky-end', function() {
+        $('.sticky').hide();
+    });
+
     (function() {
 
         var quotes = $(".quotes");

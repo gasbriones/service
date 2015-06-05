@@ -30,5 +30,6 @@
 
 <script src="js/libs/jquery-2.1.3.min.js"></script>
 <script src="js/libs/jquery.bxslider.min.js"></script>
+<script src="js/libs/jquery.sticky.js"></script>
 <script src="js/init.js"></script>
 <title>Hogar Help - Haciendo de tu Hogar, tu lugar en el mundo</title>
