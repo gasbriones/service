@@ -5,6 +5,7 @@ $(document).ready(function () {
     });
 
     $("#top-menu").sticky({topSpacing:0});
+
     $('#top-menu').on('sticky-start', function() {
         $('.sticky').show();
     });

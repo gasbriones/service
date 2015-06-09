@@ -68,6 +68,22 @@
                    Aspiramos a ser la empresa de servicios y asesoramiento técnico para el hogar y sus habitantes, posicionándose como LA referencia en servicios técnicos para el hogar dentro del mercado local,  diferenciándose  por brindar un servicio de excelencia, contribuyendo así al bienestar de la comunidad sus hogares y sus habitantes.
                </p>
            </div>
+           <h2>Políticas de calidad</h2>
+           <div class="v2">
+               <p>
+                   <b>La calidad de nuestro servicio está basada en los siguientes pilares:</b>
+               </p>
+           </div>
+
+
+           <div class="v2">
+               <ul class="orbs-list">
+                   <li><b>Capacitación Permanente:</b> Cada una de las áreas y equipos técnicos necesitan diferentes conocimientos y  pericias. Contar con el know how necesario  producto de los avances tecnológicos, es responsabilidad de esta empresa y quienes pertenecemos a ella.  Es por ello que  nuestros técnicos se capacitan periódicamente con los avances y exigencias tecnológicas  que las marcas líderes del mercado  pretenden y necesitan para extender la vida útil de los productos que lanzan al mercado.</li>
+                   <li><b>Repuestos Originales:</b> Esta política asegura el trabajo exitoso de nuestros técnicos. La salud de su hogar y de quienes habitan en ella no permite errores. Es por ello que nos aseguramos de proveer a los técnicos con los repuestos originales provistos de fabricas nacionales o importados según corresponda al producto a reparar. Esta política en el tiempo abarata costos y durabilidad de nuestros trabajos.</li>
+                   <li><b>Vocación de Servicio:</b> EL servicio de nuestro trabajo no  radica solo en el arreglo de los diferentes artefactos; como lo atendemos, como lo arreglamos y como dejamos en funcionamiento y buenas condiciones  (limpio y ordenado) el espacio de trabajo donde la empresa y nuestro técnico intervinieron hace la diferencia positiva.</li>
+                   <li><b>Garantía de trabajo:</b> Todos nuestros trabajos tienen garantía sin excepción.  Ese es nuestro sello, nuestro respaldo mas solido.  Esto a usted y su hogar  le aseguran un resultado exitoso del 100%. Teniendo como objetivo que su casa sea 100% funcional. Hacemos de su hogar, su lugar preferido, su lugar en el mundo, Donde usted y su familia pueda descansar los 365 días del año.  Es por ellos que estamos para servirlo y con esa premisa como objetivo trabajamos todos los días Para usted</li>
+
+               </ul>
        </div>
     </section>
     <footer id="footer">

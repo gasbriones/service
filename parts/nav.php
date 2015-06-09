@@ -15,5 +15,6 @@
         <li class="<?php echo $active = $_SESSION["active"]== 'cobertura' ? 'active' : ''; ?>"><a href="cobertura.php">Cobertura</a></li>
         <li><a href="#">Solicitar service</a></li>
         <li class="<?php echo $active = $_SESSION["active"]== 'contacto' ? 'active' : ''; ?>"><a href="contacto.php">Contacto</a></li>
+        <li class="<?php echo $active = $_SESSION["active"]== 'trabajar' ? 'active' : ''; ?>"><a href="trabaja-con-nosotros.php">Trabaja con nostros</a></li>
     </ul>
 </nav>

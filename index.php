@@ -18,7 +18,7 @@
         <div class="slider">
             <h6 class="visuallyhidden">Hogar Help Slider</h6>
             <ul id="main-phones">
-                <li class="phone"><i class="fa fa-truck"></i>(11) 2345-6789</li>
+                <li class="phone"><i class="fa fa-truck"></i>(11) 15 3667 0771</li>
             </ul>
             <ul id="slider-home" class="bx-slider">
                 <li>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
 
-                <h2 class="relevant">Servicio Técnico Autorizado a Domicilio para el Hogar y usted</h2>
+                <h2 class="relevant">Servicio técnico a domicilio en el día en Capital Federal (Ciudad Autónoma de Buenos Aires) y GBA, Zona Norte, Zona Sur, Zona Oeste.</h2>
                 <div class="clearfix">
                     <div class="col left">
                         <div class="hline2">

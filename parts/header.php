@@ -6,8 +6,8 @@
             <li class="calls">
                 <i class="fa fa-phone"></i>
                 <span class="celeste">Llamenos:</span>
-                <span class="number-1 quotes">(11) 2345-6789</span>
-                <span class="number-1 quotes">(11) 5555-6789</span>
+                <span class="number-1 quotes">(11) 15 3667 0771</span>
+                <span class="number-1 quotes">(11) 15 3667 0771</span>
             </li>
             <li>
                 <a href="#" class="fb"><i class="fa fa-facebook"></i></a>
@@ -16,7 +16,7 @@
                 <a href="#" class="tw"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
-                <a href="#" class="wh"><i class="fa fa-whatsapp"></i></a>
+                <a href="whatsapp://send?text=Hogar Help - Servicio técnico para todos tus electrodomésticos - Cel: 113667 0771 - http://hogarhelp.com" title="Cel (11) 3667-0771" class="wh"><i class="fa fa-whatsapp"></i></a>
             </li>
         </ul>
     </div>

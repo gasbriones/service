@@ -12,7 +12,7 @@ body {
 .relevant {
   margin: 20px 0;
   font-size: 1.875em;
-  color: #333;
+  color: #000;
   font-weight: bold; }
 
 .wrapper {
@@ -26,6 +26,9 @@ body {
 .right {
   float: right; }
 
+.quotes {
+  display: none; }
+
 .visuallyhidden {
   border: 0 none;
   clip: rect(0px, 0px, 0px, 0px);
@@ -35,6 +38,9 @@ body {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+.is-sticky .hh-menu li {
+  font-size: 0.8125em; }
 
 .celeste {
   color: #00bbd3; }
@@ -93,8 +99,6 @@ body {
         padding: 0 0.5em; }
         #header nav #header-social li.calls .fa-phone {
           margin-right: 0.3125em; }
-        #header nav #header-social li.calls .quotes {
-          display: none; }
       #header nav #header-social li a.fb {
         color: #3b5998; }
       #header nav #header-social li a.tw {
@@ -102,7 +106,7 @@ body {
       #header nav #header-social li a.wh {
         color: #4dc247; }
 #header #header_logo {
-  margin: 0.9375em 0 0.9375em 0;
+  margin: 0.9375em 0 1.25em 0;
   position: relative; }
   #header #header_logo .logo-text {
     font-size: 2.25em;
@@ -293,6 +297,7 @@ body {
 
 .marks {
   background: url("../images/hogar-help-mark-bg.jpg");
+  background-attachment: fixed;
   padding: 2em 0 5em; }
   .marks .grid_2 {
     width: 170px;
@@ -311,8 +316,40 @@ body {
         transition-property: opacity 0.5s ease; }
 
 #footer {
-  height: 15em;
-  background: #333333; }
+  background: #333333;
+  padding: 2em 0; }
+  #footer nav .hh-menu {
+    margin: 0 auto 0;
+    display: table; }
+    #footer nav .hh-menu li {
+      float: left;
+      margin-right: 1em;
+      font-size: 0.875em; }
+      #footer nav .hh-menu li a {
+        color: #666666;
+        text-decoration: none; }
+        #footer nav .hh-menu li a:hover {
+          text-decoration: underline !important; }
+      #footer nav .hh-menu li.active a {
+        text-decoration: underline !important; }
+  #footer .copyright {
+    text-align: center;
+    color: #999999;
+    margin-top: .25em; }
+    #footer .copyright a {
+      color: #666666;
+      text-decoration: none; }
+      #footer .copyright a:hover {
+        text-decoration: underline !important; }
+  #footer #footer-social {
+    margin: 0 auto;
+    display: table; }
+    #footer #footer-social li {
+      padding: 0.53333em 0.5em;
+      float: left; }
+      #footer #footer-social li a {
+        color: #666666;
+        font-size: 2.875em; }
 
 .service .col {
   margin: 2em 0;
@@ -341,6 +378,8 @@ body {
 .contacto .grid_8 {
   width: 65%;
   float: right; }
+.contacto .hline2 {
+  height: inherit !important; }
 .contacto .hline2.v3 {
   margin-bottom: -8px;
   margin-top: 32px;
@@ -361,6 +400,13 @@ body {
     margin-right: 1%; }
   .contacto #contact-form .phone input {
     margin-right: 0; }
+  .contacto #contact-form .especialidad input {
+    width: 97%;
+    margin-right: 0;
+    margin-top: 2%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
   .contacto #contact-form textarea {
     width: 100%;
     border: none;
