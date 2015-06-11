@@ -25,6 +25,11 @@
                         <h3>Teléfono:</h3>
                         <p> (11) 15 3667 0771 </p>
                     </div>
+                    <div class="hline2 v3 no_line">
+                        <h3>E-mail: </h3>
+                        <p><a href="mailto:consulta@hogarhelp.com">consulta@hogarhelp.com</a></p>
+                    </div>
+                </div>
                 </div>
 
                 <div class="grid_8 preffix_1">

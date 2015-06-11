@@ -17,8 +17,12 @@
     <section class="body-container clearfix content" >
        <div class="wrapper">
 
-           <ul id="main-phones" class="clearfix" style="position: relative !important; margin-bottom: 4.5em">
-               <li class="phone"><i class="fa fa-truck"></i>(11) 2345-6789</li>
+           <ul id="main-phones" class="clearfix" style="position: relative !important; margin-bottom: 5.5em">
+               <li class="service">
+                   <i class="fa fa-truck"></i>
+                   <span class="dest-title">Service</span><span class="phone">(11) 15 3667 0771</span>
+                   <div class="dest-sub">Heladera, Lavarropas, Lavavajillas, Aire acondicionado, Cocinas, Calefones</div>
+               </li>
            </ul>
 
            <h2>Servicios de reparación de electrodomésticos de primera calidad</h2>

@@ -18,7 +18,11 @@
         <div class="slider">
             <h6 class="visuallyhidden">Hogar Help Slider</h6>
             <ul id="main-phones">
-                <li class="phone"><i class="fa fa-truck"></i>(11) 15 3667 0771</li>
+                <li class="service">
+                    <i class="fa fa-truck"></i>
+                    <span class="dest-title">Service</span><span class="phone">(11) 15 3667 0771</span>
+                    <div class="dest-sub">Heladera, Lavarropas, Lavavajillas, Aire acondicionado, Cocinas, Calefones, Cavas</div>
+                </li>
             </ul>
             <ul id="slider-home" class="bx-slider">
                 <li>
@@ -30,7 +34,7 @@
                                     <li>Service en el día</li>
                                     <li>Respuesta inmediata</li>
                                     <li>Cobertura en Capital y Gran Buenos Aires</li>
-                                    <li>Seriedad y respaldo</li>
+                                    <li>Seriedad, respaldo y garantía</li>
                                 </ul>
                             </li>
                         </ul>

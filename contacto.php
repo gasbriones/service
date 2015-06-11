@@ -20,23 +20,17 @@
                 <div class="grid_3">
                     <h2>Nuestras direcciones</h2>
                     <div class="hline2 v3">
-                        <h3>Dirección 1:</h3>
+                        <h3>Dirección:</h3>
                         <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45. </p>
                     </div>
 
                     <div class="hline2 v3">
                         <h3>Teléfono:</h3>
-                        <p>+1 800 559 6580<br>+1 800 603 6035</p>
+                        <p>(11) 15 3667 0771</p>
                     </div>
-
-                    <div class="hline2 v3">
-                        <h3>Dirección 2:</h3>
-                        <p>9863 - 9867 Mill Road, Cambridge, <br>MG09 99HT.</p>
-                    </div>
-
                     <div class="hline2 v3 no_line">
-                        <h3>Teléfono: </h3>
-                        <p>+1 800 559 6580<br>+1 800 603 6035</p>
+                        <h3>E-mail: </h3>
+                        <p><a href="mailto:consulta@hogarhelp.com">consulta@hogarhelp.com</a></p>
                     </div>
                 </div>
 

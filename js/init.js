@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $('.bx-slider').bxSlider({
         auto:true,
-        pause:8000
+        pause:8000,
+        controls:false
     });
 
     $("#top-menu").sticky({topSpacing:0});

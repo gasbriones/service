@@ -187,15 +187,35 @@ body {
     font-weight: bold; }
   #main-phones .phone {
     color: #dd4b39;
-    font-size: 90px;
+    font-size: 60px;
+    margin: 20px 0px 0px 17px;
+    font-weight: bold;
+    float: left; }
+  #main-phones .service {
+    color: #cccccc;
+    font-size: 20px;
     margin-top: 2px;
     font-weight: bold; }
-    #main-phones .phone .fa-truck {
-      margin: 0 33px 0 0; }
-      #main-phones .phone .fa-truck:before {
+    #main-phones .service .fa-truck {
+      margin: 0 33px 0 0;
+      float: left; }
+      #main-phones .service .fa-truck:before {
         color: #333333 !important;
         font-size: 90px;
-        top: 5px; }
+        top: 5px;
+        font-size: 90px; }
+    #main-phones .service .dest-title {
+      float: left;
+      font-size: 80px;
+      color: #333; }
+    #main-phones .service .dest-sub {
+      clear: both;
+      font-weight: 300;
+      color: #333;
+      font-size: 26px;
+      background: #B3D4FC;
+      display: table;
+      padding: 0 1em; }
 
 #slider-home .caption {
   position: absolute;
@@ -218,7 +238,8 @@ body {
       display: table;
       padding: 0 5px;
       color: #ffffff;
-      font-size: 1.625em; }
+      font-size: 1.625em;
+      font-weight: 300; }
 
 .content .wrapper {
   border-top: 1px solid #dcdee0; }
@@ -251,6 +272,11 @@ body {
     margin-top: -10px; }
   .content .hline2:last-child {
     border-bottom: none; }
+  .content .hline2 a {
+    color: #666;
+    text-decoration: none; }
+    .content .hline2 a:hover {
+      text-decoration: underline; }
 .content .hline2.v2 {
   margin-bottom: 0;
   margin-top: 26px;
