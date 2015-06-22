@@ -17,11 +17,14 @@
     <section class="body-container clearfix content" >
        <div class="wrapper">
 
-           <ul id="main-phones" class="clearfix" style="position: relative !important; margin-bottom: 5.5em">
+           <ul id="main-phones" class="clearfix" style="position: relative !important; margin-bottom: 5.5em; left:0">
                <li class="service">
-                   <i class="fa fa-truck"></i>
-                   <span class="dest-title">Service</span><span class="phone">(11) 15 3667 0771</span>
-                   <div class="dest-sub">Heladera, Lavarropas, Lavavajillas, Aire acondicionado, Cocinas, Calefones</div>
+                   <div class="dest-sub"><b>Service:</b> Heladera, Lavarropas, Lavavajillas, Aire acondicionado, Cocinas, Calefones, Cavas</div>
+                   <ul class="phones-list">
+                       <li class="phone"><i class="fa fa-phone"></i>4838 1386</li>
+                       <li class="phone"><i class="fa fa-mobile"></i>15 3667 0771</li>
+                       <li class="phone"><i class="fa fa-mobile"></i>15 5386 0746</li>
+                   </ul>
                </li>
            </ul>
 

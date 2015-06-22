@@ -96,7 +96,8 @@ body {
         font-weight: bold;
         font-size: 1.5625em;
         line-height: 1.5625em;
-        padding: 0 0.5em; }
+        padding: 0 0.5em;
+        width: 12.52em; }
         #header nav #header-social li.calls .fa-phone {
           margin-right: 0.3125em; }
       #header nav #header-social li a.fb {
@@ -116,6 +117,8 @@ body {
     color: #333333;
     letter-spacing: -2px;
     line-height: 1.66667em; }
+  #header #header_logo .logo-anchor img {
+    margin-right: 5px; }
   #header #header_logo .logo-anchor .slogan {
     bottom: -4px;
     color: #666666;
@@ -181,6 +184,16 @@ body {
   z-index: 99999;
   top: 2.5em;
   left: 15%; }
+  #main-phones .phones-list {
+    margin-top: 1em; }
+    #main-phones .phones-list li {
+      float: none;
+      position: relative;
+      padding-left: 65px; }
+      #main-phones .phones-list li i {
+        position: absolute;
+        top: 0;
+        left: 0; }
   #main-phones .title {
     font-size: 50px;
     color: #333333;
@@ -188,7 +201,7 @@ body {
   #main-phones .phone {
     color: #dd4b39;
     font-size: 60px;
-    margin: 20px 0px 0px 17px;
+    margin: 3px 0px 0px 17px;
     font-weight: bold;
     float: left; }
   #main-phones .service {
@@ -196,14 +209,14 @@ body {
     font-size: 20px;
     margin-top: 2px;
     font-weight: bold; }
-    #main-phones .service .fa-truck {
-      margin: 0 33px 0 0;
+    #main-phones .service .fa {
+      margin: 6px 4px 0 0;
       float: left; }
-      #main-phones .service .fa-truck:before {
+      #main-phones .service .fa:before {
         color: #333333 !important;
-        font-size: 90px;
-        top: 5px;
-        font-size: 90px; }
+        font-size: 60px; }
+      #main-phones .service .fa.fa-mobile:before {
+        font-size: 70px; }
     #main-phones .service .dest-title {
       float: left;
       font-size: 80px;
@@ -215,7 +228,12 @@ body {
       font-size: 26px;
       background: #B3D4FC;
       display: table;
-      padding: 0 1em; }
+      padding: 0 .5em; }
+
+.home .col {
+  width: 33% !important;
+  float: left;
+  margin-top: 2em; }
 
 #slider-home .caption {
   position: absolute;
@@ -228,7 +246,7 @@ body {
     color: #333333;
     font-weight: bold; }
   #slider-home .caption .listWithMarker {
-    margin-top: 10px; }
+    margin-top: 90px; }
     #slider-home .caption .listWithMarker li {
       list-style: disc;
       display: block;
@@ -324,7 +342,8 @@ body {
 .marks {
   background: url("../images/hogar-help-mark-bg.jpg");
   background-attachment: fixed;
-  padding: 2em 0 5em; }
+  padding: 2em 0 5em;
+  margin: 5em 0 0; }
   .marks .grid_2 {
     width: 170px;
     margin-right: 25px; }
@@ -381,6 +400,12 @@ body {
   margin: 2em 0;
   float: left;
   width: 33%; }
+.service .col2 {
+  margin: 2em 0;
+  float: left;
+  width: 49%; }
+.service .hline2:last-child {
+  margin-right: 30px !important; }
 
 .empresa p {
   margin-top: 15px; }
@@ -416,7 +441,7 @@ body {
 .contacto #contact-form {
   margin-top: 37px;
   position: relative; }
-  .contacto #contact-form input {
+  .contacto #contact-form input, .contacto #contact-form select {
     height: 40px;
     line-height: 40px;
     padding: 0 5px;
@@ -452,5 +477,16 @@ body {
     font-size: 18px;
     color: #ffffff;
     margin: 1em 0; }
+  .contacto #contact-form.solicitar-service input, .contacto #contact-form.solicitar-service select {
+    width: 97%;
+    margin-right: 0;
+    margin-top: 2%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .contacto #contact-form.solicitar-service .desperfecto textarea {
+    height: 100px; }
+  .contacto #contact-form.solicitar-service select {
+    color: #777; }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,7 +4,6 @@
     include 'parts/head.php';
     $_SESSION['active'] = "trabaja";
     ?>
-
 </head>
 <body class="contacto" data-page="service">
 <div class="page">
@@ -20,10 +19,11 @@
                 <h2>Trabaja con nostros y se parte de nuestro equipo</h2>
                 <p>Comunicate a los siguientes teléfonos o llena el formulario</p>
                 <div class="grid_3">
-
                     <div class="hline2 v3">
-                        <h3>Teléfono:</h3>
-                        <p> (11) 15 3667 0771 </p>
+                        <h3>Teléfonos:</h3>
+                        <p><i class="fa fa-phone-square" style="margin-right: .5em"></i>4838 1386</p>
+                        <p><i class="fa fa-mobile" style="margin-right: .25em; font-size: 20px"></i>15 3667 0771 </p>
+                        <p><i class="fa fa-mobile" style="margin-right: .25em; font-size: 20px"></i>15 5386 0746 </p>
                     </div>
                     <div class="hline2 v3 no_line">
                         <h3>E-mail: </h3>
@@ -55,12 +55,8 @@
                             <a class="more_btn" data-type="submit" href="#">Enviar</a>
                         </div>
                     </form>
-
-
                 </div>
-
             </div>
-
         </div>
     </section>
     <footer id="footer">

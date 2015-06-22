@@ -16,17 +16,18 @@
     </section>
     <section class="body-container clearfix content" >
        <div class="wrapper">
-           <ul id="main-phones" class="clearfix" style="position: relative !important; margin-bottom: 5.5em">
+           <ul id="main-phones" class="clearfix" style="position: relative !important; margin-bottom: 5.5em; left:0">
                <li class="service">
-                   <i class="fa fa-truck"></i>
-                   <span class="dest-title">Service</span><span class="phone">(11) 15 3667 0771</span>
-                   <div class="dest-sub">Heladera, Lavarropas, Lavavajillas, Aire acondicionado, Cocinas, Calefones</div>
+                   <div class="dest-sub"><b>Service:</b> Heladera, Lavarropas, Lavavajillas, Aire acondicionado, Cocinas, Calefones, Cavas</div>
+                   <ul class="phones-list">
+                       <li class="phone"><i class="fa fa-phone"></i>4838 1386</li>
+                       <li class="phone"><i class="fa fa-mobile"></i>15 3667 0771</li>
+                       <li class="phone"><i class="fa fa-mobile"></i>15 5386 0746</li>
+                   </ul>
                </li>
            </ul>
            <h2>Nuestra área de servicio de reparación de electrodomésticos</h2>
-           <div class="v2">
-               <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
-           </div>
+
            <div class="col">
                <figure class="img_inner">
                    <img src="images/zona-capital-federal.jpg">

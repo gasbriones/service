@@ -18,15 +18,11 @@
         <div class="wrapper">
             <div class="row">
                 <div class="grid_3">
-                    <h2>Nuestras direcciones</h2>
                     <div class="hline2 v3">
-                        <h3>Dirección:</h3>
-                        <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45. </p>
-                    </div>
-
-                    <div class="hline2 v3">
-                        <h3>Teléfono:</h3>
-                        <p>(11) 15 3667 0771</p>
+                        <h3>Teléfonos:</h3>
+                        <p><i class="fa fa-phone-square" style="margin-right: .5em"></i>4838 1386</p>
+                        <p><i class="fa fa-mobile" style="margin-right: .25em; font-size: 20px"></i>15 3667 0771 </p>
+                        <p><i class="fa fa-mobile" style="margin-right: .25em; font-size: 20px"></i>15 5386 0746 </p>
                     </div>
                     <div class="hline2 v3 no_line">
                         <h3>E-mail: </h3>
