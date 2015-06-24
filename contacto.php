@@ -22,7 +22,7 @@
                         <h3>Teléfonos:</h3>
                         <p><i class="fa fa-phone-square" style="margin-right: .5em"></i>4838 1386</p>
                         <p><i class="fa fa-mobile" style="margin-right: .25em; font-size: 20px"></i>15 3667 0771 </p>
-                        <p><i class="fa fa-mobile" style="margin-right: .25em; font-size: 20px"></i>15 5386 0746 </p>
+                        <p><i class="fa fa-whatsapp" style="margin-right: .25em; font-size: 20px"></i>15 5386 0746 </p>
                     </div>
                     <div class="hline2 v3 no_line">
                         <h3>E-mail: </h3>

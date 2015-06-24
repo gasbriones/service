@@ -23,7 +23,7 @@
                     <ul class="phones-list">
                         <li class="phone"><i class="fa fa-phone"></i>4838 1386</li>
                         <li class="phone"><i class="fa fa-mobile"></i>15 3667 0771</li>
-                        <li class="phone"><i class="fa fa-mobile"></i>15 5386 0746</li>
+                        <li class="phone"><i class="fa fa-whatsapp"></i>15 5386 0746</li>
                     </ul>
                 </li>
             </ul>
@@ -81,11 +81,11 @@
                     <div class="grid_8 left">
                         <img class="img1" alt="" src="images/page2_pic1.jpg">
                         <div class="box3">
-                            <p class="marTop3">Reparamos en el día de heladeras patrick fagor, bosch y peabody.<br>
+                            <p class="marTop3">Reparamos heladeras patrick fagor, bosch y peabody.<br>
                                 Somos el servicio técnico mas abarcativo, realizamos trabajos de reparación e instalación tanto en capital como en todo el gran buenos aires.<br>
-                                Reparación de heladeras Frost, y no frost, freezers peabody, y heladeras familiares o comerciales a domicilio.</p>
+                                Reparación de heladeras frost,  no frost, freezers, ,heladeras familiares o comerciales, lavarropas, etc a domicilio</p>
                             <h3 class="marTop4"><a class="link2" href="#">Service en Capital Federal y G.B.A Zona Norte, G.B.A Zona Oeste, G.B.A Zona Sur.</a></h3>
-                            <p>Si tiene dudas sobre el funcionamiento de sus heladeras no frost, o cree que necesita reparación, no dude en consultarnos.
+                            <p>Si tiene dudas sobre el funcionamiento de sus electrodomésticos y/o artefactos del hogar, o cree que necesita reparación, no dude en consultarnos.
                                 En nuestro plantel de expertos encontrara el mejor servicio y atención en reparación de heladeras familiares bosch, freezers peabody, heladeras comerciales patrick fagor, y de todo tipo.
                                 </p>
                         </div>

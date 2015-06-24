@@ -22,7 +22,7 @@
                    <ul class="phones-list">
                        <li class="phone"><i class="fa fa-phone"></i>4838 1386</li>
                        <li class="phone"><i class="fa fa-mobile"></i>15 3667 0771</li>
-                       <li class="phone"><i class="fa fa-mobile"></i>15 5386 0746</li>
+                       <li class="phone"><i class="fa fa-whatsapp"></i>15 5386 0746</li>
                    </ul>
                </li>
            </ul>

@@ -23,7 +23,7 @@
                    <ul class="phones-list">
                        <li class="phone"><i class="fa fa-phone"></i>4838 1386</li>
                        <li class="phone"><i class="fa fa-mobile"></i>15 3667 0771</li>
-                       <li class="phone"><i class="fa fa-mobile"></i>15 5386 0746</li>
+                       <li class="phone"><i class="fa fa-whatsapp"></i>15 5386 0746</li>
                    </ul>
                </li>
            </ul>
@@ -35,7 +35,7 @@
                    <div class="col2 left">
                        <div class="hline2">
                            <h3 class="marTop1"><a class="link2" href="#">Heladeras, Freezers, Cavas,  familiares y comerciales </a></h3>
-                           <p class="marcas">Service de Heladera , Especialistas en Heladeras No-Frost</p>
+                           <p class="marcas">Service de heladeras , especialistas en heladeras frost y no-frost</p>
                            <p>General Electric, Westinghouse,  Patrick , Mabe, Samsung, Siam,  Eslabón de Lujo, Consul, Gafa, Frigidaire,  Kelvinator, Patrik, Fagor, Electrolux, Marshall, Colunbia, Peabody, Philco, Koh.i.noor, Aurora, White,  Brastem, Samsung, LG, Sanyo, Bosch, Tivoli. Winefroz, Vondom, Wine Colection, Mobicool. </p>
                            <p>Nuestro  Servicio técnico de heladeras se realiza con personal altamente capacitado, repuestos originales y garantía escrita. Reparamos heladeras, refrigeradores de todas las marcas, con o sin freezer. Carga de gas, control de pérdidas de gas, termostatos, burletes, motor/compresor, componentes electrónicos y todo lo necesario para el normal y eficiente funcionamiento de su heladera. </p>
                        </div>
@@ -53,7 +53,7 @@
                            <h3 class="marTop1"><a class="link2" href="#">Estufas y calefactores</a></h3>
                            <p>Service de estufas y calefactores</p>
                            <p class="marcas">Domec, Longvie,   Ariston, Orbis, Volcan ,  Emege, Universal, Rheem, Eskabe</p>
-                           <p>El equipo conformado para esta unidad de servicios es altamente especializado para estos productos. Con capacitación y especialización permanente asegurando un servicio y respaldo de alta confianza. Utilizamos repuestos originales, lo que nos permite asegurar un trabajo seguro y por ende extender la garantía escrita más amplia de este rubro.  Reparación de estufas y calefactores de Gas natural, gas envasado y combinadas. </p>
+                           <p>El equipo técnico de  esta unidad de servicios es altamente especializado para estos productos. Con capacitación y especialización permanente asegurando un servicio y respaldo de alta confianza. Utilizamos repuestos originales, lo que nos permite asegurar un trabajo seguro y por ende extender la garantía escrita más amplia de este rubro.  Reparación de estufas y calefactores de Gas natural, gas envasado y combinadas. </p>
                            <p>Este equipo desarrolla trabajos como limpieza y mantenimiento de quemadores y venteo de gases. Control de pérdida de gas y pérdidas de gases. Recambio de serpentina. Servicio preventivo.</p>
                        </div>
 
@@ -80,7 +80,7 @@
                            <h3 class="marTop1"><a class="link2" href="#">Termotanques y calefones</a></h3>
                            <p>Service de Calefones y service de termotanques de  todas lasmarcas</p>
                            <p class="marcas">Orbis, Longvie-Volcan, Universal, Saiar, Sherman. Eskabe, Domec, Longvie,  Ariston,  Emege, Universal, Rheem, Oro Azul</p>
-                           <p>Nuestro equipo técnico de trabajo es parte del equipo especializado en la materia,  son los especialistas calificados  al servicio de reparación e instalación de productos con Gas, mas de 15 años trabajando con calefones y termotanques, personal altamente capacitado que operan con  repuestos originales extendiendo la mejor  garantía del mercado.
+                           <p>Nuestro equipo técnico de trabajo es parte del equipo especializado en la materia, son los especialistas calificados al servicio de reparación e instalación de productos con Gas, mas de 25 años trabajando con calefones y termotanques, personal altamente capacitado que operan con  repuestos originales extendiendo la mejor  garantía del mercado.
                                Este equipo desarrolla trabajos como limpieza y mantenimiento de quemadores y venteo de gases. Control de pérdida de gas y pérdidas de gases. Recambio de serpentina. Servicio preventivo. Termocuplas, quemadores, membranas, diafragma. Limpieza y mantenimiento del sistema de combustión, gases y ventilación de los mismos. Esta experiencia permite que podamos Reparar calefones y termotanques de todas las marcas.</p>
                        </div>
                    </div>
