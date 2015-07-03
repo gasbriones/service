@@ -133,13 +133,9 @@
                         <label class="phone last">
                             <select name="horario" size="1">
                                 <option value="marca">Seleccione un horario de contacto</option>
-                            <?php
-                                $hour = 7;
-                                while($hour++ < 24):
-                            ?>
-                                <option value="<?php echo $hour.':00' ?>"><?php echo $hour.':00' ?></option>
-
-                            <?php endwhile?>
+                                <option value="8:00 hs a  11:00 hs">8:00 a  11:00 hs</option>
+                                <option value="11:00 hs a 15:00 hs">11:00 hs a 15:00 hs</option>
+                                <option value="15:00 hs a 19:00 hs">15:00 hs a 19:00 hs</option>
                             </select>
                         </label>
                         <label class="email">
