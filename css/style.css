@@ -41,6 +41,8 @@ body {
 
 .is-sticky .hh-menu li {
   font-size: 0.8125em; }
+  .is-sticky .hh-menu li a {
+    padding: 15px 5px !important; }
 
 .celeste {
   color: #00bbd3; }
@@ -129,7 +131,7 @@ body {
     display: none;
     font-size: 12px;
     float: left;
-    margin-right: 5em;
+    margin-right: 2em;
     margin-top: 0;
     margin-bottom: 0; }
     #header #header_logo.sticky img {
@@ -488,5 +490,16 @@ body {
     height: 100px; }
   .contacto #contact-form.solicitar-service select {
     color: #777; }
+
+.fixed {
+  position: fixed;
+  right: 0;
+  top: 8px;
+  width: 16%;
+  z-index: 9999999; }
+  .fixed li, .fixed .celeste {
+    display: none; }
+    .fixed li.calls, .fixed .celeste.calls {
+      display: block !important; }
 
 /*# sourceMappingURL=style.css.map */

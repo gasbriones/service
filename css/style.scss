@@ -37,6 +37,7 @@ body {
   display: none;
 
 }
+
 .visuallyhidden {
   border: 0 none;
   clip: rect(0px, 0px, 0px, 0px);
@@ -48,12 +49,16 @@ body {
   width: 1px;
 }
 
-.is-sticky{
-  .hh-menu{
-    li{
+.is-sticky {
+  .hh-menu {
+    li {
       font-size: (13em/16);
+      a {
+        padding: 15px 5px !important;
+      }
     }
   }
+
 }
 
 .celeste {
@@ -66,6 +71,7 @@ body {
     border: none !important;
     box-shadow: none !important;
     left: 0 !important;
+
   }
   .bx-pager {
     bottom: 10px;
@@ -163,11 +169,11 @@ body {
       line-height: (60em/36);
     }
 
-    .logo-anchor{
-      img{
+    .logo-anchor {
+      img {
         margin-right: 5px;
       }
-      .slogan{
+      .slogan {
         bottom: -4px;
         color: #666666;
         font-size: 12px;
@@ -176,20 +182,20 @@ body {
       }
     }
 
-    &.sticky{
+    &.sticky {
       display: none;
       font-size: 12px;
       float: left;
-      margin-right: 5em;
+      margin-right: 2em;
       margin-top: 0;
       margin-bottom: 0;
 
-      img{
+      img {
         margin-right: 10px;
         width: 51px !important;
       }
 
-      .slogan{
+      .slogan {
         display: none;
       }
     }
@@ -252,13 +258,13 @@ body {
   top: 2.5em;
   left: 15%;
 
-  .phones-list{
+  .phones-list {
     margin-top: 1em;
-    li{
+    li {
       float: none;
       position: relative;
       padding-left: 65px;
-      i{
+      i {
         position: absolute;
         top: 0;
         left: 0;
@@ -278,32 +284,32 @@ body {
     font-weight: bold;
     float: left;
   }
-  .service{
+  .service {
     color: #cccccc;
     font-size: 20px;
     margin-top: 2px;
     font-weight: bold;
 
-    .fa{
-      margin:6px 4px 0 0;
+    .fa {
+      margin: 6px 4px 0 0;
       float: left;
-      &:before{
+      &:before {
         color: #333333 !important;
         font-size: 60px;
       }
 
-      &.fa-mobile{
-        &:before{
+      &.fa-mobile {
+        &:before {
           font-size: 70px;
         }
       }
     }
-    .dest-title{
+    .dest-title {
       float: left;
       font-size: 80px;
       color: #333;
     }
-    .dest-sub{
+    .dest-sub {
       clear: both;
       font-weight: 300;
       color: #333;
@@ -311,13 +317,13 @@ body {
       background: #B3D4FC;
       display: table;
       padding: 0 .5em;
-      
+
     }
   }
 }
 
-.home{
-  .col{
+.home {
+  .col {
     width: 33% !important;
     float: left;
     margin-top: 2em;
@@ -404,10 +410,10 @@ body {
       border-bottom: none;
     }
 
-    a{
+    a {
       color: #666;
       text-decoration: none;
-      &:hover{
+      &:hover {
         text-decoration: underline;
       }
     }
@@ -477,7 +483,7 @@ body {
     font-size: 24px;
   }
 
-  .marcas{
+  .marcas {
     font-style: italic;
   }
 
@@ -509,26 +515,26 @@ body {
 }
 
 #footer {
- background: #333333;
- padding: 2em 0;
+  background: #333333;
+  padding: 2em 0;
 
-  nav{
-    .hh-menu{
+  nav {
+    .hh-menu {
       margin: 0 auto 0;
       display: table;
-      li{
+      li {
         float: left;
         margin-right: 1em;
         font-size: (14em/16);
-        a{
+        a {
           color: #666666;
           text-decoration: none;
-          &:hover{
+          &:hover {
             text-decoration: underline !important;
           }
         }
-        &.active{
-          a{
+        &.active {
+          a {
             text-decoration: underline !important;
           }
         }
@@ -536,15 +542,15 @@ body {
     }
   }
 
-  .copyright{
+  .copyright {
     text-align: center;
     color: #999999;
     margin-top: .25em;
 
-    a{
+    a {
       color: #666666;
       text-decoration: none;
-      &:hover{
+      &:hover {
         text-decoration: underline !important;
       }
     }
@@ -556,7 +562,7 @@ body {
     li {
       padding: (16em/30) (15em/30);
       float: left;
-      a{
+      a {
         color: #666666;
         font-size: (46em/16);
       }
@@ -571,8 +577,8 @@ body {
     float: left;
     width: 33%;
   }
-  .col2{
-    margin: 2em 0 ;
+  .col2 {
+    margin: 2em 0;
     float: left;
     width: 49%;
   }
@@ -616,7 +622,7 @@ body {
     width: 65%;
     float: right;
   }
-  .hline2{
+  .hline2 {
     height: inherit !important;
   }
 
@@ -633,7 +639,7 @@ body {
     margin-top: 37px;
     position: relative;
 
-    input,select {
+    input, select {
       height: 40px;
       line-height: 40px;
       padding: 0 5px;
@@ -681,22 +687,36 @@ body {
       margin: 1em 0;
     }
 
-    &.solicitar-service{
-      input,select {
+    &.solicitar-service {
+      input, select {
         width: 97%;
         margin-right: 0;
         margin-top: 2%;
         @include box_sizing(border-box);
       }
 
-      .desperfecto{
-        textarea{
+      .desperfecto {
+        textarea {
           height: 100px;
         }
       }
-      select{
+      select {
         color: #777;
       }
+    }
+  }
+}
+
+.fixed {
+  position: fixed;
+  right: 0;
+  top: 8px;
+  width: 16%;
+  z-index: 9999999;
+  li,.celeste {
+    display: none;
+    &.calls {
+      display: block !important;
     }
   }
 }

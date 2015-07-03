@@ -3,7 +3,7 @@
     <div id="header_logo" class="clearfix sticky">
         <h6 class="visuallyhidden">Hogar Help Logo</h6>
         <a class="logo-anchor" href="index.php" title="Hogar Help -  Servicios para el hogar">
-            <img src="images/hogar-help-logo.jpg" alt="Hogar Help Logo" class="left">
+            <img src="images/logo-2.png" alt="Hogar Help Logo" class="left">
             <h1 class="logo-text left">hogarhelp</h1>
             <span class="slogan">Haciendo de tu Hogar, tu lugar en el mundo.</span>
         </a>
@@ -17,4 +17,5 @@
         <li class="<?php echo $active = $_SESSION["active"]== 'contacto' ? 'active' : ''; ?>"><a href="contacto.php">Contacto</a></li>
         <li class="<?php echo $active = $_SESSION["active"]== 'trabaja' ? 'active' : ''; ?>"><a href="trabaja-con-nosotros.php">Trabaja con nosotros</a></li>
     </ul>
+
 </nav>

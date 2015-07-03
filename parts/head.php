@@ -1,23 +1,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<meta content="" name="keywords">
+<meta content="service, servicio tecnico, reparacion, lavarropas, heladeras, secarropas, cocinas, lavavajillas, termotanques, calefones, estufas, aire acondicionado, repuestos, argentina,reparacion de heladeras, service, whirlpool, heladeras, no frost, gafa, reparacion, freezers, service de heladeras, arreglo" name="keywords">
 
-<meta content="Descripcion" name="description">
+<meta content="Service de heladeras, reparación, servicio técnico en el día en Capital Federal, GBA Zona Norte, GBA Zona Sur, GBA Zona Oeste. Servicio tecnico y reparacion de heladeras." name="description">
 <!-- Facebook -->
 <meta name="og:type" content="website"/>
-<meta name="og:title" content="Francisco Speicher"/>
-<meta name="og:description" content="Descripcion"/>
-<meta name="og:url" content="url"/>
-<meta content="Francisco Speicher" name="og:site_name">
+<meta name="og:title" content="Hogar Help Service"/>
+<meta name="og:description" content="Service de heladeras, reparación, servicio técnico en el día en Capital Federal, GBA Zona Norte, GBA Zona Sur, GBA Zona Oeste. Servicio tecnico y reparacion de heladeras."/>
+<meta name="og:url" content="http://hogarhelp.com"/>
+<meta content="Hogar Help" name="og:site_name">
 <meta content="Buenos Aires" name="og:region">
 <meta content="Argentina" name="og:country-name">
 
 <!-- twitter -->
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:url" content="url"/>
-<meta name="twitter:title" content="Francisco Speicher"/>
-<meta name="twitter:description" content="Descripcion"/>
-<meta content="@franspeicher" name="twitter:site">
+<meta name="twitter:card" content="Service de heladeras, reparación, servicio técnico en el día en Capital Federal, GBA Zona Norte, GBA Zona Sur, GBA Zona Oeste. Servicio tecnico y reparacion de heladeras."/>
+<meta name="twitter:url" content="http://hogarhelp.com"/>
+<meta name="twitter:title" content="Hogar Help"/>
+<meta name="twitter:description" content="Service de heladeras, reparación, servicio técnico en el día en Capital Federal, GBA Zona Norte, GBA Zona Sur, GBA Zona Oeste. Servicio tecnico y reparacion de heladeras."/>
+<meta content="https://twitter.com/hogarhelp" name="twitter:site">
 <meta content="@gasbriones" name="twitter:creator">
 
 <!-- Links -->
@@ -32,4 +32,4 @@
 <script src="js/libs/jquery.bxslider.min.js"></script>
 <script src="js/libs/jquery.sticky.js"></script>
 <script src="js/init.js"></script>
-<title>Hogar Help - Haciendo de tu Hogar, tu lugar en el mundo</title>
+<title>Hogar Help - Servicio técnico de electrodomesticos</title>

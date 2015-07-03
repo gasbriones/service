@@ -9,10 +9,12 @@ $(document).ready(function () {
 
     $('#top-menu').on('sticky-start', function() {
         $('.sticky').show();
+        $('#header-social').addClass('fixed')
     });
 
     $('#top-menu').on('sticky-end', function() {
         $('.sticky').hide();
+        $('#header-social').removeClass('fixed')
     });
 
     (function() {
@@ -29,5 +31,19 @@ $(document).ready(function () {
         }
         showNextQuote();
     })();
+
+    $('form').submit(function(e){
+        e.preventDefault();
+        var $self = $(this);
+
+        $.ajax({
+            url:$self.attr('action'),
+            data:$self.serialize(),
+            success:function(){
+                $self.get(0).reset();
+                alert('Su mensaje fue enviado, nos pondremos en contacto con ud a la brevedad');
+            }
+        })
+    });
 });
 

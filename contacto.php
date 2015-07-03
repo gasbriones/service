@@ -32,22 +32,22 @@
 
                 <div class="grid_8 preffix_1">
                     <h2>Formulario</h2>
-                    <form id="contact-form">
+                    <form id="contact-form" action="ajax/contacto.php">
                         <label class="name">
-                            <input type="text" required="required" placeholder="Nombre" />
+                            <input type="text" name="nombre" required="required" placeholder="Nombre" />
                         </label>
                         <label class="email">
-                            <input type="text" required="required" placeholder="E-mail" />
+                            <input type="email" name="email" required="required" placeholder="E-mail" />
                         </label>
                         <label class="phone last">
-                            <input type="text" required="required" placeholder="Teléfono" />
+                            <input type="text"  name="telefono" pattern="^(0|[1-9][0-9]*)$" required="required" maxlength="10" placeholder="Teléfono principal" title="Solo numeros - 8 para tel fijo y 10 para celulares"/>
                         </label>
 
                         <label class="message">
-                            <textarea placeholder="Mensaje"></textarea>
+                            <textarea name="mensaje" equired="required"  placeholder="Mensaje"></textarea>
                         </label>
                         <div class="form_btns">
-                            <a class="more_btn" data-type="submit" href="#">Enviar</a>
+                            <input class="more_btn" type="submit" value="Enviar" />
                         </div>
                     </form>
 

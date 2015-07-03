@@ -16,7 +16,7 @@
                 <a href="#" class="fb"><i class="fa fa-facebook"></i></a>
             </li>
             <li>
-                <a href="#" class="tw"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/hogarhelp" class="tw"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
                 <a href="whatsapp://send?text=Hogar Help - Servicio técnico para todos tus electrodomésticos - Tel: 4838 1386  Cel: 113667 0771 - http://hogarhelp.com" title="Tel: 4838 1386  - Cel 15 3667-0771" class="wh"><i class="fa fa-whatsapp"></i></a>
@@ -28,9 +28,9 @@
     <div id="header_logo" class="clearfix">
         <h6 class="visuallyhidden">Hogar Help Logo</h6>
         <a class="logo-anchor" href="index.php" title="Hogar Help -  Servicios para el hogar">
-            <img src="images/hogar-help-logo.jpg" alt="Hogar Help Logo" class="left">
+            <img src="images/logo.png" alt="Hogar Help Logo" class="left">
             <h1 class="logo-text left">hogarhelp</h1>
-            <span class="slogan">Haciendo de tu Hogar, tu lugar en el mundo.</span>
+            <span class="slogan">Servicio técnico de electrodomesticos</span>
         </a>
     </div>
 </div>

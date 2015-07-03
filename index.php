@@ -52,7 +52,7 @@
                                    <li>Presupuesto sin cargo</li>
                                    <li>Experiencia y calidad</li>
                                    <li>Personal capacitado </li>
-                                   <li>Más de 15 años de experiencia</li>
+                                   <li>Más de 25 años de experiencia</li>
                                </ul>
                            </li>
                        </ul>
@@ -81,12 +81,11 @@
                     <div class="grid_8 left">
                         <img class="img1" alt="" src="images/page2_pic1.jpg">
                         <div class="box3">
-                            <p class="marTop3">Reparamos heladeras patrick fagor, bosch y peabody.<br>
-                                Somos el servicio técnico mas abarcativo, realizamos trabajos de reparación e instalación tanto en capital como en todo el gran buenos aires.<br>
-                                Reparación de heladeras frost,  no frost, freezers, ,heladeras familiares o comerciales, lavarropas, etc a domicilio</p>
+                            <p class="marTop3">Somos el servicio técnico mas abarcativo del mercado, realizamos trabajos de reparación e instalación los productos que se detallan a continuación, tanto en capital como en todo el gran buenos aires.
+                                Realizamos reparaciones de heladeras frost, no frost, freezers, heladeras familiares o comerciales, lavarropas, hornos, calefones, etc a domicilio.</p>
                             <h3 class="marTop4"><a class="link2" href="#">Service en Capital Federal y G.B.A Zona Norte, G.B.A Zona Oeste, G.B.A Zona Sur.</a></h3>
                             <p>Si tiene dudas sobre el funcionamiento de sus electrodomésticos y/o artefactos del hogar, o cree que necesita reparación, no dude en consultarnos.
-                                En nuestro plantel de expertos encontrara el mejor servicio y atención en reparación de heladeras familiares bosch, freezers peabody, heladeras comerciales patrick fagor, y de todo tipo.
+                                En nuestro plantel de expertos encontrara el mejor servicio y atención para su solución. Estamos donde usted nos necesite.
                                 </p>
                         </div>
                     </div>
@@ -105,47 +104,47 @@
                             <h3 class="link2" href="#">Service Heladeras </h3>
                         </div>
                         <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice Secarropas</h3>
+                            <h3 class="link2" href="#">Service Secarropas</h3>
                         </div>
                         <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice  Lavavajillas</h3>
+                            <h3 class="link2" href="#">Service  Lavavajillas</h3>
                         </div>
                         <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice  Cocinas Eléctricas</h3>
+                            <h3 class="link2" href="#">Service  Cocinas Eléctricas</h3>
                         </div>
                         <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice Hornos</h3>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice Hornos eléctricos</h3>
-                        </div>
-                        <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice Anafes</h3>
-                        </div>
-                        <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice Anafes eléctricos</h3>
-                        </div>
-                        <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice Calefactores</h3>
-                        </div>
-                        <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice Termotanques</h3>
-                        </div>
-                        <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice Termotanques Electricos</h3>
+                            <h3 class="link2" href="#">Service Hornos</h3>
                         </div>
                     </div>
                     <div class="col">
                         <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice  Aires Acondicionados</h3>
+                            <h3 class="link2" href="#">Service Hornos eléctricos</h3>
                         </div>
                         <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice  Aires Acondicionados industriales</h3>
+                            <h3 class="link2" href="#">Service Anafes</h3>
                         </div>
                         <div class="sign_section">
-                            <h3 class="link2" href="#">Serivice  Aires Acondicionados centrales</h3>
+                            <h3 class="link2" href="#">Service Anafes eléctricos</h3>
+                        </div>
+                        <div class="sign_section">
+                            <h3 class="link2" href="#">Service Calefactores</h3>
+                        </div>
+                        <div class="sign_section">
+                            <h3 class="link2" href="#">Service Termotanques</h3>
+                        </div>
+                        <div class="sign_section">
+                            <h3 class="link2" href="#">Service Termotanques Electricos</h3>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="sign_section">
+                            <h3 class="link2" href="#">Service  Aires Acondicionados</h3>
+                        </div>
+                        <div class="sign_section">
+                            <h3 class="link2" href="#">Service  Aires Acondicionados industriales</h3>
+                        </div>
+                        <div class="sign_section">
+                            <h3 class="link2" href="#">Service  Aires Acondicionados centrales</h3>
                         </div>
                     </div>
                 </div>

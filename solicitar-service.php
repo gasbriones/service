@@ -16,8 +16,7 @@
     <section class="body-container clearfix content" >
         <div class="wrapper">
             <div class="row">
-                <h2>Solicitar service</h2>
-                <p>Complete los campos necesarios para enviarnos el formulario de solicitud de service. Nos pondremos en contacto a la brevedad. </p>
+                <h2>Complete sus datos y solicite servicio</h2>
                 <div class="grid_3">
 
                     <div class="hline2 v3">
@@ -35,10 +34,10 @@
                 </div>
 
                 <div class="grid_8 preffix_1">
-                    <h2>Formulario</h2>
-                    <form id="contact-form" class="solicitar-service">
+           
+                    <form id="contact-form" class="solicitar-service" action="ajax/solicitar-service.php">
                         <label class="artefacto">
-                            <select name="artefacto" size="1">
+                            <select name="artefacto" size="1" required="required">
                                 <option value="Seleccione el tipo de Artefacto">Seleccione el tipo de Artefacto</option>
                                 <option value="Aire Acondicionado">Aire Acondicionado</option>
                                 <option value="Calefacción Central">Calefacción Central</option>
@@ -114,22 +113,22 @@
                             </select>
                         </label>
                         <label class="desperfecto">
-                            <textarea placeholder="Desperfecto"></textarea>
+                            <textarea name="desperfecto" placeholder="Desperfecto" name="desperfecto" required="required"></textarea>
                         </label>
                         <label class="direccion">
-                            <input type="text" required="required" placeholder="Dirección" />
+                            <input type="text" name="direccion" required="required" placeholder="Dirección" />
                         </label>
                         <label class="localidad">
-                            <input type="text" required="required" placeholder="Localidad" />
+                            <input type="text" name="localidad" required="required" placeholder="Localidad" />
                         </label>
                         <label class="phone last">
-                            <input type="text" required="required" placeholder="Teléfono principal" />
+                            <input type="text"  name="telefono" pattern="^(0|[1-9][0-9]*)$" required="required" maxlength="10" placeholder="Teléfono principal" title="Solo numeros - 8 para tel fijo y 10 para celulares"/>
                         </label>
                         <label class="phone last">
-                            <input type="text" required="required" placeholder="Teléfono alternativo" />
+                            <input type="text"  name="alternativo" pattern="^(0|[1-9][0-9]*)$" maxlength="10"  placeholder="Teléfono alternativo" title="Solo numeros - 8 para tel fijo y 10 para celulares" />
                         </label>
                         <label class="name">
-                            <input type="text" required="required" placeholder="Nombre y Apellido" />
+                            <input type="text" name="nombre" required="required" placeholder="Nombre y Apellido" />
                         </label>
                         <label class="phone last">
                             <select name="horario" size="1">
@@ -144,14 +143,14 @@
                             </select>
                         </label>
                         <label class="email">
-                            <input type="text" required="required" placeholder="E-mail" />
+                            <input type="email" name="email" required="required" placeholder="E-mail" />
                         </label>
 
                         <label class="message">
-                            <textarea placeholder="Comentario adicional"></textarea>
+                            <textarea name="comentarios" placeholder="Comentario adicional"></textarea>
                         </label>
                         <div class="form_btns">
-                            <a class="more_btn" data-type="submit" href="#">Enviar</a>
+                            <input class="more_btn" type="submit" value="Enviar" />
                         </div>
                     </form>
                 </div>
